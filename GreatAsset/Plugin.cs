@@ -6,20 +6,13 @@ using UnityEngine;
 using System.Collections.Generic;
 
 
-/*
- * Methods to patch maybe:
- *	PlayerControllerB:
- *		StarPerformingEmoteServerRpc()
- *		StartPerformingEmoteClientRpc()
- */
-
-
 namespace GreatAsset
 {
 	[BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 	public class Plugin : BaseUnityPlugin
 	{
 		internal static Harmony _harmony;
+		// Use this to log from other classes (standard BepInEx practice).
 		internal static ManualLogSource Log;
 
 		private void Awake()
