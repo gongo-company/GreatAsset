@@ -6,4 +6,5 @@ Use r2modmanplus to install from the thunderstore or put the BepInEx folder into
 
 ## Overview
 
-Makes your character say "Great asset!" when you use the point emote. (Temporarily not working quite right and triggers for _any_ emote)
+Makes your character say "Great asset!" when you use the point emote.
+The pitch will randomize sometimes when you walk. I'm not fixing it because it's funny.
